@@ -122,3 +122,10 @@ Inicie o aplicativo:
 ```bash
 npm run dev
 ```
+---
+
+👨‍💻 Desenvolvedor
+
+Desenvolvido por Samir Firmino 
+
+Estudante de Sistemas de Informação na Unilasalle - RJ e focado em Análise de Dados e Desenvolvimento Web Full Stack.
