@@ -4,7 +4,7 @@ O **PetFlow** é uma solução Full Stack moderna desenvolvida para simplificar 
 
 ---
 
-## 🔗 Links de Acesso (Live Demo)
+## 🔗 Links de Acesso 
 
 - 🌐 **Frontend (Aplicação Web):** [https://samirsousa.github.io/petflow/](https://samirsousa.github.io/petflow/)
 - ⚡ **Backend (API REST):** `https://petflow-backend.onrender.com`
