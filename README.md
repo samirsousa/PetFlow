@@ -70,4 +70,55 @@ O banco de dados relacional foi construído priorizando a integridade referencia
 
 🔒 Controle de Acesso Multi-tenant: Isolamento total dos dados de cada empresa assinante no banco PostgreSQL, garantindo privacidade e segurança da informação.
 
+## 🚀 Como Rodar o Projeto Localmente
 
+### **Pré-requisitos**
+- Node.js instalado (v18+)
+- PostgreSQL rodando localmente (ou instância na nuvem)
+- Git instalado
+
+### **1. Clonar o Repositório**
+```bash
+git clone [https://github.com/seu-usuario/clientflow-ai.git](https://github.com/seu-usuario/clientflow-ai.git)
+cd clientflow-ai
+```
+
+### **2. Configurar o Banco de Dados (PostgreSQL)**
+```bash
+CREATE DATABASE clientflow_db;
+```
+
+### **3. Configurar e Rodar o Backend**
+```bash
+cd backend
+npm install
+```
+
+Crie um arquivo .env na pasta backend com as variáveis:
+```bash
+PORT=3000
+DATABASE_URL=postgresql://seu_usuario:sua_senha@localhost:5432/clientflow_db
+JWT_SECRET=sua_chave_secreta_aqui
+TZ=America/Sao_Paulo
+```
+
+Inicie o servidor:
+```bash
+npm run dev
+```
+
+### **4. Configurar e Rodar o Frontend**
+```bash
+cd ../frontend
+npm install
+```
+
+Crie um arquivo .env na pasta frontend com a variável:
+```bash
+VITE_API_URL=http://localhost:3000
+```
+
+Inicie o aplicativo:
+```bash
+npm run dev
+```
